@@ -1,0 +1,9 @@
+# swap file
+*.swp
+
+# data file
+*.csv
+*.json
+
+# class file
+*.pdf
