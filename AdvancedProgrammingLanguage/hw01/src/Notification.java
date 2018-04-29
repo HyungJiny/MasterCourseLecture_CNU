@@ -1,5 +1,7 @@
 import java.util.AbstractList;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.stream.Stream;
 
 class Notification implements Runnable{
     /*
@@ -22,20 +24,37 @@ class Notification implements Runnable{
     private static List<Student> getPassedButNotProposed(List<Student> students) {
         return new AbstractList<Student>() {
             // 구현 부분
+            public boolean isPassedButNotProposed(Student student){
+                // 종합시험 통과, 논문 심사 요청 아직
+                return student.getExamPassed() && !student.getThesisProposed();
+            }
+
             @Override
             public Student get(int index) {
-                return null;
+                return students.get(index);
             }
 
             @Override
             public int size() {
-                return 0;
+                // 학생수 반환
+                int length = (int) students.stream().filter(student -> isPassedButNotProposed(student)).count();
+                return length;
+            }
+
+            @Override
+            public String toString() {
+                // 포함된 학생 수
+                StringBuffer stringBuffer = new StringBuffer("student id : ");
+                Stream<Student> pickedStudents = students.stream().filter(student -> isPassedButNotProposed(student));
+                pickedStudents.forEach(student -> stringBuffer.append(student.id+", "));
+                return stringBuffer.toString();
             }
         };
     }
 
     @Override
     public void run() {
-
+        System.out.print(studentToNotify.toString());
+        System.out.println("\t("+studentToNotify.size()+")");
     }
 }

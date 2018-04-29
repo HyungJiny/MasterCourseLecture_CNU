@@ -15,4 +15,12 @@ class Student {
         this.examPassed = examPassed;
         this.thesisProposed = thesisProposed;
     }
+
+    public Boolean getExamPassed() {
+        return examPassed;
+    }
+
+    public Boolean getThesisProposed() {
+        return thesisProposed;
+    }
 }
