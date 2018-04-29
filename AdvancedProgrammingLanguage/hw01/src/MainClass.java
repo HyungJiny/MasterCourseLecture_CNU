@@ -20,7 +20,6 @@ public class MainClass {
         // Make student's notification thread and start
         Runnable runnable = new Notification(students);
         Thread thread = new Thread(runnable);
-        //thread.start();
 
         while(scanner.hasNext()){
             StringTokenizer tokenizer = new StringTokenizer(scanner.nextLine(), ",");

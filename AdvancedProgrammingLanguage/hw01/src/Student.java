@@ -16,6 +16,10 @@ class Student {
         this.thesisProposed = thesisProposed;
     }
 
+    public String getId(){
+        return id;
+    }
+
     public Boolean getExamPassed() {
         return examPassed;
     }

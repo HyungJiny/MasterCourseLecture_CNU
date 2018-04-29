@@ -46,7 +46,7 @@ class Notification implements Runnable{
                 // 포함된 학생 수
                 StringBuffer stringBuffer = new StringBuffer("student id : ");
                 Stream<Student> pickedStudents = students.stream().filter(student -> isPassedButNotProposed(student));
-                pickedStudents.forEach(student -> stringBuffer.append(student.id+", "));
+                pickedStudents.forEach(student -> stringBuffer.append(student.getId()+", "));
                 return stringBuffer.toString();
             }
         };
