@@ -9,4 +9,10 @@ class Student {
     // ...
     Boolean examPassed;
     Boolean thesisProposed;
+
+    public Student(String id, Boolean examPassed, Boolean thesisProposed){
+        this.id = id;
+        this.examPassed = examPassed;
+        this.thesisProposed = thesisProposed;
+    }
 }

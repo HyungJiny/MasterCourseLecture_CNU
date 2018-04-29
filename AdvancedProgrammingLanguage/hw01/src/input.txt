@@ -1,0 +1,6 @@
+1st,true,false
+2nd,true,true
+3rd,false,false
+4th,true,true
+5th,true,false
+6th,false,true

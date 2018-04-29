@@ -6,6 +6,9 @@ homeworks collection
 석사과정 수업 과제 및 실습 코드
 
 ## 2018S
-* 고급프로그래밍언어론
+* [고급프로그래밍언어론](https://github.com/HyungJiny/MasterCourseLecture_CNU/tree/master/AdvancedProgrammingLanguage)
 * 데이터마이닝
 * 고급컴퓨터네트워크
+
+- - -
+Dept. of Computer Sci. & Eng.    Chungnam National University
