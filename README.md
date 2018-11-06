@@ -10,5 +10,9 @@ homeworks collection
 * 데이터마이닝
 * 고급컴퓨터네트워크
 
+## 2018F
+* [고급컴파일러](https://github.com/HyungJiny/MasterCourseLecture_CNU/tree/master/AdvancedProgrammingLanguage)
+* 데이터마이닝특강
+* 컴퓨터네트워크특강
 - - -
 Dept. of Computer Sci. & Eng.    Chungnam National University
