@@ -1,0 +1,8 @@
+# virtualenv
+env/
+myenv/
+venv/
+
+# config
+*.ini
+
