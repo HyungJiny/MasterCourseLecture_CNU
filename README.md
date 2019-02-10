@@ -14,5 +14,9 @@ homeworks collection
 * [고급컴파일러](https://github.com/HyungJiny/MasterCourseLecture_CNU/tree/master/AdvancedCompiler)
 * 데이터마이닝특강
 * 컴퓨터네트워크특강
+
+## 2019S
+* 고급TCP/IP
+* 그래프이론
 - - -
 Dept. of Computer Sci. & Eng.    Chungnam National University
