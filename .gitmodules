@@ -1,3 +1,13 @@
 [submodule "AdvancedTCPIP/scapy-sniff-example1-HyungJiny"]
 	path = AdvancedTCPIP/scapy-sniff-example1-HyungJiny
 	url = https://github.com/cnu-cse/scapy-sniff-example1-HyungJiny
+[submodule "AdvancedTCPIP/helloworld-HyungJiny"]
+	path = AdvancedTCPIP/helloworld-HyungJiny
+	url = https://github.com/cnu-cse/helloworld-HyungJiny
+[submodule "AdvancedTCPIP/p2p-over-nat-HyungJiny"]
+	path = AdvancedTCPIP/p2p-over-nat-HyungJiny
+	url = https://github.com/cnu-cse/p2p-over-nat-HyungJiny
+[submodule "AdvancedTCPIP/tcp-state-transition-HyungJiny"]
+	path = AdvancedTCPIP/tcp-state-transition-HyungJiny
+	url = https://github.com/cnu-cse/tcp-state-transition-HyungJiny
+
