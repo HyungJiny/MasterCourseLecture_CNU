@@ -14,7 +14,7 @@
 * [컴퓨터네트워크특강](https://github.com/HyungJiny/MasterCourseLecture_CNU/tree/master/ComputerNetwork)
 
 ## 2019S
-* 고급TCP/IP
+* [고급TCP/IP](https://github.com/HyungJiny/MasterCourseLecture_CNU/tree/master/AdvancedTCPIP)
 * 그래프이론
 - - -
 Dept. of Computer Sci. & Eng.    Chungnam National University
